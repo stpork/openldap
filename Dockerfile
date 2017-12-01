@@ -9,7 +9,7 @@ FROM centos:centos7
 # * $OPENLDAP_ADMIN_PASSWORD         - OpenLDAP administrator password
 # * $OPENLDAP_DEBUG_LEVEL (Optional) - OpenLDAP debugging level, defaults to 256
 
-MAINTAINER Steve Kuznetsov <skuznets@redhat.com>
+MAINTAINER stpork from Mordor team
 
 LABEL io.k8s.description="OpenLDAP is an open source implementation of the Lightweight Directory Access Protocol." \
       io.k8s.display-name="OpenLDAP 2.4.41" \
